@@ -10,4 +10,4 @@
 
   tasks:
     - import_tasks: tasks/packages.yml
-    - import_tasks: tasks/docker_config.yml
+#    - import_tasks: tasks/docker_config.yml
