@@ -23,9 +23,9 @@
     content: |
       deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu jammy stable
 
-  -name: Update Apt with included Docker repo
-   apt: 
-     update_cache: yes
+- name: Update Apt with included Docker repo
+    apt: 
+      update_cache: yes
 
 - name: Install Docker and Docker Compose
   apt:
