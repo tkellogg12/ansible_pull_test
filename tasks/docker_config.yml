@@ -26,7 +26,6 @@
 - name: Install Docker and Docker Compose
   apt:
     name:
-      - docker-ce
       - docker-ce-cli
       - containerd.io
       - docker-compose-plugin
