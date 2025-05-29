@@ -1,0 +1,5 @@
+- name: install updates on all OS types
+  apt:
+    name: "*"
+    state: latest
+    update_cache: yes
