@@ -1,2 +1,2 @@
 # ansible_pull_test
-command to run: sudo apt install ansible && sudo ansible-pull -U git@github.com:tkellogg12/ansible_pull_test.git
+command to run: sudo apt install ansible && sudo ansible-pull -U https://github.com/tkellogg12/ansible_pull_test.git
