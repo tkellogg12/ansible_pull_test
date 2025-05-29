@@ -1,0 +1,6 @@
+- name: Install Packages
+  apt:
+    name:
+      - htop
+      - mc
+      - tmux
