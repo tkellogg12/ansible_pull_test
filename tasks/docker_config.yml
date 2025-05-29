@@ -33,7 +33,7 @@
     state: present
 
 - name: Ensure Docker service is enabled and running
-      service:
-        name: docker
-        state: started
-        enabled: yes
+  service:
+    name: docker
+    state: started
+    enabled: yes
