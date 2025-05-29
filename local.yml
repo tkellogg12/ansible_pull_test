@@ -2,12 +2,12 @@
   connection: local
   become: true
 
-  pre-tasks:
+  pre_tasks:
     - name: update repo
       apt:
-	update_cache: yes
+        update_cache: yes
       changed_when: False
 
   tasks:
-    - include: tasks/packages.yml
-    - include: tasks/docker_config.yml
+    - import_tasks: tasks/packages.yml
+    - import_tasks: tasks/docker_config.yml
