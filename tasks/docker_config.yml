@@ -30,7 +30,7 @@
       copy:
         dest: /etc/apt/sources.list.d/docker.list
         content: |
-          deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu   jammy stable
+          deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu  jammy stable
     - name: Update APT package index again
       apt:
         update_cache: yes
